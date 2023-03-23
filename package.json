@@ -1,6 +1,6 @@
 {
   "name": "@kolintsio96/vue-module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "node": ">=16",
     "npm": ">=6"
