@@ -10,7 +10,7 @@ export default defineConfig({
       entry: fileURLToPath(new URL('src/index.js', import.meta.url)),
       name: 'vue-module',
       // the proper extensions will be added
-      fileName: 'mfx-auto-renderer',
+      fileName: 'vue-module',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled  // into your library  external: ['vue'],  output: {
