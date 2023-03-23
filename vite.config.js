@@ -5,6 +5,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    'process.env': {}
+  },
   build: {
     lib: {
       entry: fileURLToPath(new URL('src/index.js', import.meta.url)),
