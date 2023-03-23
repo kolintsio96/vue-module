@@ -1,0 +1,1 @@
+export { default as VueModule } from "./lib/vue-module"
