@@ -17,7 +17,7 @@
   "module": "./dist/vueModule.umd.js",
   "exports": {
     ".": {
-      "import": "./dist/vueModule.es.js",
+      "import": "./dist/vueModule.umd.js",
       "require": "./dist/vueModule.umd.js"
     },
     "./style.css": "./dist/style.css"
