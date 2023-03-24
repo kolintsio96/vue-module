@@ -13,10 +13,10 @@
     "dist"
   ],
   "main": "./dist/vue-module.umd.js",
-  "module": "./dist/vue-module.umd.js",
+  "module": "./dist/vue-module.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-module.umd.js",
+      "import": "./dist/vue-module.es.js",
       "require": "./dist/vue-module.umd.js"
     },
     "./style.css": "./dist/style.css"
