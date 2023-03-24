@@ -2,9 +2,8 @@ import {createApp} from "vue";
 import { createPinia } from "pinia"
 import App from "@/App.vue"
 import router from "@/router"
-import {v4} from "uuid";
 
-const VueModule = class {
+export default class VueModule{
     static #_activeIds = [];
     #_config;
     #_vue;
@@ -53,8 +52,3 @@ const VueModule = class {
         this.#_initalized = true;
     }
 };
-
-var instanceVueModule = new VueModule({
-    id: v4()
-})
-export default instanceVueModule;
