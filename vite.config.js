@@ -11,9 +11,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: fileURLToPath(new URL('src/index.js', import.meta.url)),
-      name: 'vue-module',
+      name: 'vueModule',
       // the proper extensions will be added
-      fileName: 'vue-module',
+      fileName: 'vueModule',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled  // into your library  external: ['vue'],  output: {

@@ -12,12 +12,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-module.umd.js",
-  "module": "./dist/vue-module.umd.js",
+  "main": "./dist/vueModule.umd.js",
+  "module": "./dist/vueModule.umd.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-module.umd.js",
-      "require": "./dist/vue-module.umd.js"
+      "import": "./dist/vueModule.umd.js",
+      "require": "./dist/vueModule.umd.js"
     },
     "./style.css": "./dist/style.css"
   },
