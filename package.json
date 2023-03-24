@@ -12,7 +12,9 @@
   "files": [
     "dist"
   ],
+  "type": "module",
   "main": "./dist/vue-module.umd.js",
+  "browser": "./dist/vue-module.es.js",
   "module": "./dist/vue-module.es.js",
   "exports": {
     ".": {
