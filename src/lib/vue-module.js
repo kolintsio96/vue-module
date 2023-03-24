@@ -3,7 +3,7 @@ import { createPinia } from "pinia"
 import App from "@/App.vue"
 import router from "@/router"
 
-export default class VueModule{
+export default class VueModule {
     static #_activeIds = [];
     #_config;
     #_vue;
