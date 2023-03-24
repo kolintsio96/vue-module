@@ -1,6 +1,6 @@
 {
   "name": "@kolintsio96/vue-module",
-  "version": "0.0.17",
+  "version": "0.0.11",
   "engines": {
     "node": ">=16",
     "npm": ">=6"
@@ -12,12 +12,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vueModule.umd.js",
-  "module": "./dist/vueModule.umd.js",
+  "main": "./dist/vue-module.umd.js",
+  "module": "./dist/vue-module.umd.js",
   "exports": {
     ".": {
-      "import": "./dist/vueModule.umd.js",
-      "require": "./dist/vueModule.umd.js"
+      "import": "./dist/vue-module.umd.js",
+      "require": "./dist/vue-module.umd.js"
     },
     "./style.css": "./dist/style.css"
   },
