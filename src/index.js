@@ -1,1 +1,1 @@
-export { default as VueModule } from "./lib/vue-module"
+export { default as VueModule } from "./lib/vueModule"

@@ -7,19 +7,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kolintsio96/vue-module.git"
+    "url": "git+https://github.com/kolintsio96/vueModule.git"
   },
   "files": [
     "dist"
   ],
   "type": "module",
-  "main": "./dist/vue-module.umd.js",
-  "browser": "./dist/vue-module.es.js",
-  "module": "./dist/vue-module.es.js",
+  "main": "./dist/vueModule.umd.js",
+  "browser": "./dist/vueModule.umd.js",
+  "module": "./dist/vueModule.umd.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-module.es.js",
-      "require": "./dist/vue-module.umd.js"
+      "import": "./dist/vueModule.es.js",
+      "require": "./dist/vueModule.umd.js"
     },
     "./style.css": "./dist/style.css"
   },
