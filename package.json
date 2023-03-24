@@ -14,7 +14,6 @@
   ],
   "type": "module",
   "main": "./dist/vueModule.umd.js",
-  "browser": "./dist/vueModule.umd.js",
   "module": "./dist/vueModule.umd.js",
   "exports": {
     ".": {
